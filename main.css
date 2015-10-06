@@ -1,0 +1,342 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('fonts/Bebas Neue-webfont.eot');
+    src: url('fonts/Bebas Neue-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Bebas Neue-webfont.woff2') format('woff2'),
+    url('fonts/Bebas Neue-webfont.woff') format('woff'),
+    url('fonts/Bebas Neue-webfont.ttf') format('truetype'),
+    url('fonts/Bebas Neue-webfont.svg#bebas_neuebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+section#main {
+    background-color: #f3f3f3; overflow: hidden;
+}
+#wrapper {
+    width: 100%; height: 100%; position: relative;
+}
+.wrapper {
+    max-width: 1366px; margin: 0 auto; height: 100%; overflow: hidden; position: relative;
+}
+.logo {
+   float: left; background: url(img/logo.png) center no-repeat; width: 203px; height: 28px; float: left; margin: 25px 143px 20px 113px;
+}
+.top {
+    height: 73px;
+}
+nav {
+    float: left; margin-left: -60px;
+}
+.top nav ul li{
+    display:inline-block; height: 28px; line-height: 28px; font-family: tahoma; font-size: 13px; margin-top: 25px;
+}
+div.produkty {
+    height: 48px; font-family: tahoma; font-size: 13px; margin:0 ; padding-left: 30px; padding-right: 30px; padding-top: 30px; margin-top: -30px;
+}
+.submenu div {
+    background-color: #8c8d8d;
+    padding: 0;
+    margin: 0;
+}
+ul.submenu {
+    background-color: #8c8d8d; display:none; position: absolute; top:73px; left:0; z-index: 1; width: 100%; height: 205px;
+}
+li.first {
+    margin-left: 105px !important;
+}
+.submenu li {
+     margin: 0 12px 0 13px;
+}
+.top nav ul li:hover ul {
+    display:inline-block; margin: 0 auto;
+}
+.menu li:hover div {
+    background-color: #8c8d8d; color: #ff4700;
+}
+.menu li:hover div.liner{
+    border: 1px solid #ff4700; margin: 0 -30px 0 -30px; position: relative; top:18px; z-index: 1;
+}
+.box {
+    width: 117px; height: 140px; margin: 0;
+}
+
+.rolety {
+    width: 117px; height: 117px; background: url("img/rolety.jpg"); margin: 0;
+}
+.zal {
+    width: 117px; height: 117px; background: url("img/zal.jpg"); margin: 0;
+}
+.markyzy {
+    width: 117px; height: 117px; background: url("img/markyzy.jpg"); margin: 0;
+}
+.vrata {
+    width: 117px; height: 117px; background: url("img/vrata.jpg"); margin: 0;
+}
+.site {
+    width: 117px; height: 117px; background: url("img/site.jpg"); margin: 0;
+}
+.barvy {
+    width: 117px; height: 117px; background: url("img/barvy.jpg"); margin: 0;
+}
+.calc {
+    width: 117px; height: 117px; background: url("img/calc.jpg"); margin: 0;
+}
+div.dark {
+    background: #000000 !important;
+}
+.box:hover .dark div {
+    opacity: 0.3;
+}
+p.fly {
+    float:left; text-transform: none; font-size: 14px; line-height: 14px; margin-top: 8px; color: #fff;
+}
+.box:hover p.fly {
+   width: 117px; position: relative; top: -80px; text-align: center;
+}
+.top a{
+    text-decoration: none; color: #333333; text-transform:uppercase;
+}
+
+.lang {
+    float: right; height: 73px; width: 69px; border-left: 1px solid #dddddd; border-right: 1px solid #dddddd; margin-right: 105px;
+}
+.langbox {
+    padding-top: 30px;
+}
+a.main-item {
+    margin: 22px; font-family: tahoma; font-size: 13px; color: #a1a1a1;
+}
+#dropdown-menu
+{
+    display: none; font-family: tahoma; font-size: 13px;
+}
+#dropdown-menu a
+{
+    font-family: tahoma; font-size: 13px; color: #fff;
+}
+.main-item:focus ~ #dropdown-menu,
+ .main-item:active ~ #dropdown-menu,
+ #dropdown-menu:hover {
+     display: block; list-style-type: none;
+ }
+.main-item:focus ~ #dropdown-menu,
+.main-item:active ~ #dropdown-menu,
+#dropdown-menu:hover {
+    width: 70px; height: 155px; background-color: #8c8d8d; position: relative; top:-50px;color:#fff; z-index: 2;
+}
+#dropdown-menu div.arrow {
+    float:right; width: 7px; height: 4px; background: url("img/arrow.png") 0 -5px; position: relative; top:6px; left:-20px;
+}
+#dropdown-menu li.dm1{
+    margin-left: 22px; padding-top: 33px;
+}
+#dropdown-menu li{
+    margin-left: 22px; padding-top: 25px;
+}
+div.arrow {
+    float:right; width: 7px; height: 4px; background: url("img/arrow.png"); position: relative; top:6px; left:-20px;
+}
+.bottom {
+    height: 522px; background: url("img/layer.jpg"); background-position: 30% 36.6%;
+}
+.wrap1 {
+    height: 522px; background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background: -webkit-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background: -o-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background: -ms-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background-position: bottom; background-size: 60%;
+}
+.title h1{
+    font-family: tahoma; font-size: 36px; font-weight: bold; text-transform: uppercase; color: #fff; background-color: rgba(0, 0, 0, 0.7); width: 811px; height: 53px; text-align: center; margin:auto; position: relative; top: 115px; line-height: 53px;
+}
+.p1{
+    font-family: tahoma; font-size: 24px; color: #fff; background-color: rgba(0, 0, 0, 0.7); width: 645px; height: 41px; line-height: 34px; text-align: center; margin:auto; position: relative; top: 117px;
+}
+.euro {
+    font-family: tahoma; font-size: 14px; text-transform: uppercase; color: #fff; background-color: #212121; width: 292px; height: 44px; border-radius: 3px; position: relative; top: 127px; margin: auto; text-align: center;
+}
+.circle {
+    float: left; width: 22px; height: 22px; border-radius: 11px; background-color: #ff4700; margin: 12px 0 0 33px; font-family: arial; font-weight: bold;
+}
+.ceny {
+    padding-top: 13px; letter-spacing: 1px; margin-right: 34px;
+}
+.circle p {
+    margin-top: 3px;
+}
+.bottom nav {
+   float: none; clear: both; margin: auto; height: 50px; width: 1140px;
+}
+.bottom nav ul li {
+    display: inline-block; width: 189px; height: 52px; background-color: #fff; margin-right: -3px; text-align: center; line-height: 52px; position: relative; top: 270px;
+}
+.bottom a {
+    text-decoration: none; color: #333333; text-align: center; font-family: tahoma; font-size: 13px; font-weight: bold; text-transform: uppercase;
+}
+.hr1 {
+   float: left; height: 1px; width: 503px; border-top: 1px solid rgba(255,255,255,0.3);; position: relative; top: 240px; margin-left: 105px;
+}
+.hr2 {
+   float: right; height: 1px; width: 503px; border-top: 1px solid rgba(255,255,255,0.3);; position: relative; top: 240px; margin-right: 105px;
+}
+.prod {
+   width: 134px; margin: auto; position: relative; top: 250px; text-align: center; font-size: 14px; font-family: tahoma; color: #ffffff;
+}
+.main {
+    height: 524px; background-color: #f3f3f3;
+}
+.slide {
+    width: 1170px; height: 363px; margin:0 auto;
+}
+.sl1 {
+   float: left; width: 360px; height: 250px; margin: 34px 15px 0 15px; background: url("img/sl1.jpg"); background-position: 50%;
+}
+.sl2 {
+    float: left; width: 360px; height: 250px; margin: 34px 15px 0 15px; background: url("img/sl2.jpg"); background-position: 50%;
+}
+.sl3 {
+    float: left; width: 360px; height: 250px; margin: 34px 15px 0 15px; background: url("img/sl3.jpg"); background-position: 50% 100%;
+}
+.wrap2 {
+    height: 250px; background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x; background-position: bottom; background-size: 75%;
+    background:-moz-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background:-webkit-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background:-o-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+    background:-ms-linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)) repeat-x;
+}
+.slide h1 {
+    font-family: tahoma; font-size: 18px; font-weight: bold; text-align: center; text-transform: uppercase; color: #fff; margin:auto; position: relative; top: 183px; text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+.slide p {
+    font-family: tahoma; font-size: 14px; text-align: center; color: #fff; margin:auto; position: relative; top: 186px; text-shadow: 0 2px 2px rgba(0,0,0,0.3);
+}
+.separ {
+width: 84.508%; height: 61px; margin: 0 auto; background:linear-gradient(-66deg, #fff 0%, #fff 54%, #ff4700 54%, #ff4700 100%); margin-bottom: 32px;
+    background:-webkit-linear-gradient(156deg, #fff 0%, #fff 54%, #ff4700 54%, #ff4700 100%);
+    background:-moz-linear-gradient(156deg, #fff 0%, #fff 54%, #ff4700 54%, #ff4700 100%);
+    background:-o-linear-gradient(156deg, #fff 0%, #fff 54%, #ff4700 54%, #ff4700 100%);
+    background:-ms-linear-gradient(156deg, #fff 0%, #fff 54%, #ff4700 54%, #ff4700 100%);
+}
+.separ img {
+    float: left; margin: 15px 0 0 46px;
+}
+.separ p {
+    letter-spacing: 0.5px; font-family: tahoma; font-size: 14px; font-weight: bold; text-transform: uppercase; color: #fff; padding-left: 118px; line-height: 61px;
+}
+.separ span {
+    letter-spacing: 1px; float: right; font-family: tahoma; font-size: 14px; font-weight: normal; text-transform: none; color: #555555; line-height: 61px; padding-right: 180px;
+}
+.slevovy {
+    width: 360px; height: 33px; margin: -8px auto; background:linear-gradient(-66deg, transparent 0%, transparent 62%, #ff4700 62%, #ff4700 100%);
+    background:-moz-linear-gradient(156deg, transparent 0%, transparent 62%, #ff4700 62%, #ff4700 100%);
+    background:-webkit-linear-gradient(156deg, transparent 0%, transparent 62%, #ff4700 62%, #ff4700 100%);
+    background:-o-linear-gradient(156deg, transparent 0%, transparent 62%, #ff4700 62%, #ff4700 100%);
+    background:-ms-linear-gradient(156deg, transparent 0%, transparent 62%, #ff4700 62%, #ff4700 100%);
+}
+.slevovy h2 {
+    font-family: tahoma; font-weight: bold; font-size: 12px; line-height: 33px; color: #fff; padding-left: 15px;
+}
+.columns {
+    width: 1140px; margin: auto;
+}
+.columns h1 {
+    font-family: tahoma; font-size: 13px; color: #444444; line-height: 18px; margin-top: 28px; margin-bottom: 5px;
+}
+.columns p {
+    font-family: tahoma; font-size: 13px; color: #999999; line-height: 18px;
+}
+.col1 {
+    float: left; width: 517px; margin: 0 auto; margin-bottom: 65px;
+}
+.col2 {
+    float: right; width: 518px; margin: 0 auto; margin-bottom: 65px; margin-top: 15px;
+}
+footer {
+    clear: both; width: 100%; margin: 0 auto;
+}
+.orange {
+    color: #ff4700;
+}
+footer {
+    width: 100%; height: 110px; background-color: #939494;
+}
+.foot1 {
+    width: 84.508%; height: 74px; margin: 0 auto;
+}
+.becker {
+    width: 228px; height: 57px; margin-top: 16px; margin-right: 54px; float: left;
+}
+.becker img {
+    float: left; margin-right: -64px;
+}
+.becker pre {
+    font-family: tahoma; font-size: 11px; color: #fff; margin-top: -2px;
+}
+.foot1 ul li {
+    float: left; display:inline-block; height: 74px; line-height: 74px; font-family: tahoma; text-transform: uppercase; font-size: 12px; margin-right: 60px;
+}
+.foot1 a {
+    text-decoration: none; color: #fff;
+}
+.contact1 {
+    float: left; width: 140px; height: 30px;
+}
+.contact2 {
+    float: left; width: 140px; height: 30px;
+}
+.contact1 img {
+    margin: 25px 8px 0 20px; float: left;
+}
+.contact1 p {
+    margin-top: 30px; font-family: tahoma; font-size: 12px; color: #fff;
+}
+.contact2 img {
+    margin: 25px 8px 0 20px; float: left;
+}
+.contact2 p {
+    margin-top: 30px; font-family: tahoma; font-size: 12px; color: #fff;
+}
+.facebook {
+    float: right; width: 180px; height: 74px; border-left: 1px solid rgba(255,255,255,0.3); border-right: 1px solid rgba(255,255,255,0.3);
+}
+.facebook img {
+    margin:25px 15px;
+}
+.wrap3 {
+    width: 100%; margin: 0 auto; height: 36px; border-top: 1px solid rgba(255,255,255,0.3);
+}
+.foot2 {
+    width: 84.508%; margin: 0 auto;
+}
+.des {
+    float:left; font-family: tahoma; font-size: 11px; color: #eeeeee; line-height: 36px;
+}
+.cr {
+   float:right; font-family: tahoma; font-size: 11px; color: #eeeeee; line-height: 36px;
+}
+.crea {
+    float:left; font-family: bebas_neuebold; font-weight: bold; font-size: 20px; color: #fff; line-height: 36px; margin-left: 15px;
+}
